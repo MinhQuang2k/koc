@@ -1,0 +1,128 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+// scss-docs-start gray-color-variables
+@import 'variables/colors';
+
+// Characters which are escaped by the escape-svg function
+$escaped-characters: (
+  ('<', '%3c'),
+  ('>', '%3e'),
+  ('#', '%23'),
+  ('(', '%28'),
+  (')', '%29')
+) !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+@import 'variables/options';
+
+// Gradient
+@import 'variables/gradient';
+
+// Spacing
+@import 'variables/spacing';
+
+// Position
+@import 'variables/position';
+
+// Body
+@import 'variables/body';
+
+// Links
+@import 'variables/links';
+
+// Paragraphs
+@import 'variables/paragraphs';
+
+//Grid
+@import 'variables/grid';
+
+// Components
+@import 'variables/components';
+
+// Typography
+@import 'variables/typography';
+
+// Tables
+@import 'variables/tables';
+
+// Buttons + Forms
+@import 'variables/buttonForm';
+
+// Buttons
+@import 'variables/button';
+
+// Forms
+@import 'variables/forms';
+
+// Z-index master list
+@import 'variables/zIndex';
+
+// Navs
+@import 'variables/navs';
+
+// Navbar
+@import 'variables/navbar';
+
+// Dropdowns
+@import 'variables/dropdowns';
+
+// Pagination
+@import 'variables/pagination';
+
+// Cards
+@import 'variables/cards';
+
+// Accordion
+@import 'variables/accordion';
+
+// Tooltips
+@import 'variables/tooltips';
+
+// Popovers
+@import 'variables/popovers';
+
+// Toasts
+@import 'variables/toasts';
+
+// Badges
+@import 'variables/badges';
+
+// Modals
+@import 'variables/modals';
+
+// Alerts
+@import 'variables/alerts';
+
+// Progress bars
+@import 'variables/processBars';
+
+// List group
+@import 'variables/listGroup';
+
+// Image thumbnails
+@import 'variables/image';
+
+// Figures
+@import 'variables/figures';
+
+// Breadcrumbs
+@import 'variables/breadcrumbs';
+
+// Carousel
+@import 'variables/carousel';
+
+// Spinners
+@import 'variables/spinners';
+
+// Close
+@import 'variables/close';
+
+// Offcanvas
+@import 'variables/offcanvas';
+
+// Code
+@import 'variables/code';

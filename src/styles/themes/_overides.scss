@@ -1,0 +1,13 @@
+$dt-font-weight: $font-weight-bold;
+$btn-focus-width: $input-btn-focus-width;
+
+$dodgerBlue: #1e90ff;
+// Create your own map
+$custom-colors: (
+  'dodgerBlue': $dodgerBlue,
+);
+
+// remove from map
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
